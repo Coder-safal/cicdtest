@@ -1,0 +1,10 @@
+name: teste
+on: [push]
+jobs:
+  thisisjob:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
+      - run: npm test
+      - run: echo "test passed"
+
