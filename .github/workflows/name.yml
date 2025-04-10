@@ -7,4 +7,4 @@ jobs:
       - run: echo "hello world"
       - run: echo "test passed"
       - run: echo "test passed"
-
+      - run: npm run dev
