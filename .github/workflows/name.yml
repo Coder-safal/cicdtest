@@ -8,5 +8,5 @@ jobs:
       - run: echo "test passed"
       - run: echo "test passed"
       - run: sudo apt install npm -y 
-      - run: npm init 
+      - run: npm init -y
       - run: npm run dev
